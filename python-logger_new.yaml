@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: python-logger
+spec:
+  containers:
+  - name: python-logger
+    image: masum140/my-python-logger:2.0
+    imagePullPolicy: Always
+
