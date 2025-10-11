@@ -1,0 +1,9 @@
+resources:
+  - ../../base/deployment.yaml
+  - ../../base/service.yaml
+  - ../../base/configmap.yaml
+
+# you can override replicas or image tag here
+patchesStrategicMerge:
+  - replica-patch.yaml
+
